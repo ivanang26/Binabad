@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: black;
+      color: white;
+    }
+img{
+  height:100%;
+  width:100%;
+}
+    header {
+      background-color: blue;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    nav {
+      background-color: green;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: yellow;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    section h2 {
+      color: green;
+      margin-bottom: 15px;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: green;
+      padding: 8px 15px;
+      margin: 5px;
+      border-radius: 20px;
+      font-size: 0.95em;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      background: blue;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .project-card h3 {
+      margin-top: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: blue;
+      color: white;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Emmanuel Ivan Astrera</h1>
+    <p>Web Developer | Designer | Creative Coder</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello, I'm the type of person who's shy but that's just at first. What do you think of me as an angel? Just a little more devilish, that's all.</section>
+<h2 style="display:flex;">
+<div ><img src="IMG_20240325_170317_045.jpg"></div>
+</h2>
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span>Cooking</span>
+        <span>Gaming</span>     
+        
+        
+     
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project-card">
+          <h3> Website</h3>
+          <p>This website is for buying a toothbrush to prevent bad breath.</p>
+        </div>
+        <div class="project-card">
+          <h3>SlotsPH</h3>
+          <p>a gambling app where you win at first but only at first and then you run out of money if you keep playing</p>
+        </div>
+        <div class="project-card">
+          <h3>Weather App</h3>
+          <p>app where you can find out if there is a storm outside your house or in the other village</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Email: ivanangastrera@gmail.com</p>
+      <p>Phone: 09319221098</p>
+      <p>Facebook: <a href="https://www.facebook.com/share/1ESoa27fW7/" target="_blank">Mark Vincent Guntang</a></p>
+    </section>
+
+  </div>
+
+  <footer>
+    &copy; Mark Vincent Guntang
+  </footer>
+
+</body>
+</html>
